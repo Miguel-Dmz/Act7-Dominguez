@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'Pantalla_Inicio.dart';
 import 'animated_default_text_style.dart';
 import 'animated_switcher.dart';
-import 'builder.dart';
-import 'clip_path.dart';
-import 'cupertino_activity_indicator.dart';
-import 'cupertino_scrollbar.dart';
+import 'bottom_navigation_bar.dart';
+import 'circular_progress_indicator.dart';
+import 'container.dart';
+import 'cupertino_picker.dart';
 
 void main() => runApp(MisRutasApp());
 
@@ -23,10 +23,10 @@ class MisRutasApp extends StatelessWidget {
         // When navigating to the "/second" route, build the SecondScreen widget.
         '/pantalla1': (context) => const Widget010(),
         '/pantalla2': (context) => const Widget020(),
-        '/pantalla3': (context) => const Widget030(),
-        '/pantalla4': (context) => const Widget040(),
-        '/pantalla5': (context) => const Widget052(),
-        '/pantalla6': (context) => const Widget061(),
+        '/pantalla3': (context) => const Widget028(),
+        '/pantalla4': (context) => const Widget038(),
+        '/pantalla5': (context) => const Widget047(),
+        '/pantalla6': (context) => const Widget059(),
       },
     );
   }
